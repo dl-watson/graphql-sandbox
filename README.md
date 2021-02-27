@@ -16,14 +16,18 @@ Return a list of all (391) villagers. For each villager, return their:
 ### Queries:
 ```
 {
-  allVillagers ...
+  allVillagers {
+    ...
+  }
 }
 ```
 Returns a list of all 391 villagers.
 
 ```
 {
-  villager (name: `${name}`) ...
+  villager (name: `${name}`) {
+    ...
+  }
 }
 ```
 Returns a single villager by a non-optional name (String) argument.
