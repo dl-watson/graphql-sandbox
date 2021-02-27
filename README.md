@@ -27,3 +27,7 @@ Returns a list of all 391 villagers.
 }
 ```
 Returns a single villager by a non-optional name argument.
+
+---
+
+Client-side example hosted [here](https://github.com/dl-watson/30_hooks).
