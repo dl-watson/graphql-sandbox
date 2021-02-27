@@ -12,3 +12,18 @@ Return a list of all (391) villagers. For each villager, return their:
 * phrase, 
 * quote,
 * birthday
+
+### Queries:
+```
+{
+  allVillagers ...
+}
+```
+Returns a list of all 391 villagers.
+
+```
+{
+  villager (name: "${name}") ...
+}
+```
+Returns a single villager by a non-optional name argument.
