@@ -23,10 +23,10 @@ Returns a list of all 391 villagers.
 
 ```
 {
-  villager (name: "${name}") ...
+  villager (name: `${name}`) ...
 }
 ```
-Returns a single villager by a non-optional name argument.
+Returns a single villager by a non-optional name (String) argument.
 
 ---
 
